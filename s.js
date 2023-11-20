@@ -107,6 +107,14 @@ x,rs(j))
 
 
 )}
+const keys = document.createElement("submit");
+keys.id = "keys";
+keys.innerText = "Full Map";
+keys.style.textAlign = 'center';
+keys.style.fontSize = '13px';
+keys.style.textDecoration = "underline";
+keys.style.color = theme.raw.menuMainColor.string;
+document.getElementsByClassName("fcols grow hinherit ")[0].appendChild(keys);
 er = document.createElement("button")
 er.style.border = '1px solid white'
 er.innerText = 'FM'
